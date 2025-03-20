@@ -1,0 +1,57 @@
+.navbar-menu{
+    padding: 20px 0px;
+    display:flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+.navbar-menu-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-top: 13px;
+    font-size: 17px;
+    color: rgb(0, 111, 155);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navbar-menu-login{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+.add-item{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top:20px;
+    left: 81%;
+}
+.login-button button{
+    width: 90px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    border-radius: 50px;
+    padding: 10px 0px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.596);
+    transition: 0.5s;
+}
+.login-button button:hover{
+    background-color: rgba(255, 99, 71, 0.589);
+    
+}
+.navbar-menu-list .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+}
+

@@ -1,0 +1,43 @@
+.Footer-content{
+    background-color: rgba(22, 20, 20, 0.685);
+    border-radius: 10px;
+    border-radius:10px 10px 0px 0px ;
+    margin-top: 20px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 50px;
+    color: whitesmoke;
+}
+.Footer-content-logo{
+    text-align: start;
+    width: 350px;
+    margin-left: 30px;
+}
+.Footer-content-logo p{
+    margin-top: 20px;
+    text-align:start;
+
+}
+.Footer-logo{
+    margin: 10px auto;
+}
+.Footer-company ul{
+    margin-left: 30px;
+    margin-top:20px;
+}
+.Footer-touch{
+    margin-left: 50px;
+}
+.Footer-touch h1{
+    margin-bottom: 10px;
+}
+.play-store{
+    margin:70px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    gap: 40px;
+}
+

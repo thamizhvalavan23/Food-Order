@@ -1,0 +1,34 @@
+.explore-list{
+    margin: 20px auto;
+}
+.explore-text h1{
+    font-size: 35px;
+}
+.explore-list p{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.explore-image-list{
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    text-align: center;
+    cursor: pointer;
+}
+.explore-image-list img{
+    width: 120px;
+    padding: 2px;
+}
+.explore-image-list::-webkit-scrollbar{
+    overflow: hidden;
+}
+hr{
+    height:2px;
+    background-color: gray;
+}
+.explore-image .active{
+    border: 4px solid tomato;
+    border-radius: 100%;
+    padding: 2px;
+}

@@ -1,0 +1,80 @@
+.form-container{
+    width:80%;
+    height: 100%;
+    background-color: #00000090;
+    z-index: 1;
+    position:absolute;
+    display: grid;
+}
+.form-container-main{
+    display:grid;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height:max-content;
+    background-color: whitesmoke;
+    justify-content: center;
+    margin: auto;
+}.form-container-main h2{
+    text-align: center;
+    margin:10px auto;
+    font-size: 28px;
+    color: #00000090;
+}
+.close{
+    position: absolute;
+    margin: 20px;
+    width: 24px;
+}
+.form-container-content input{
+    display: grid;
+    width: 310px;
+    height: 40px;
+    margin:20px;
+    padding-left:10px;
+    font-size: 17px;
+    color:#000000da;
+    border-radius:5px;
+    outline: none;
+    border: 1px solid gray;
+}
+.form-condtion{
+    display: flex;
+    margin:3px 0px 0px 20px;
+    gap: 10px;
+}
+.form-login{
+    margin: 10px 0px 0px 20px ;
+}
+.form-login span{
+    cursor: pointer;
+    color: blue;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.form-button{
+    justify-content: center;
+    align-items: center;
+    display:grid;
+    margin: 20px auto;
+}
+.form-button button{
+    width: 310px;
+    height: 35px;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 5px;
+    background-color: tomato;
+    color: #000000d3;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+    border: 0px;
+    border-radius:5px;
+}
+.form-button button:hover{
+    background-color: gray;
+   
+}

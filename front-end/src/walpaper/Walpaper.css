@@ -1,0 +1,41 @@
+.walpaper-list{
+    height: 34vw;
+    margin: 30px auto;
+    background-image: url('../assets/header_img.png');
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.walpaper-text{
+    position:relative;
+    top: 20%;
+    margin-left: 70px;
+    font-size: 30px;
+    color: white;
+    width: 400px;
+    transition: 0.5s;
+    animation: delay 3s;
+}
+.walpaper-button button{
+    width: 150px;
+    height: 40px;
+    padding: 10px 0px;
+    background: transparent;
+    color: black;
+    background-color: white;
+    position:absolute;
+    top: 80%;
+    outline: none;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.walpaper-button button:hover{
+    background-color:lightblue;
+
+}
+
+   
